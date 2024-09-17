@@ -1,8 +1,21 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
 .tarjeta{
      display:flex;
      flex-direction:column;
      justify-content:space-between;
-     width:420px;
+     width: 400px;
      border: 1px solid lightgray;
      box-shadow: 2px 2px 8px 4px #d3d3d3d1;
      border-radius:15px;
